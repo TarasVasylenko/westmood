@@ -18,8 +18,8 @@ $('.slide-1__items').on('click', 'a', function(){
 });
 
 $(window).scroll(function(){
-	// var titleAnimate = $('.section-3__content').offset().bottom;
-	if ($(window).scrollTop() > 3500){
+	var titleAnimate = $('.section-3__for-animate').offset().top;
+	if ($(window).scrollTop() > titleAnimate){
 		$('.section-4__title-animate-1').addClass('show');
 		$('.section-4__title-animate-2').addClass('show');
 	}
