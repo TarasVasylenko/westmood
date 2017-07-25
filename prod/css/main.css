@@ -433,7 +433,7 @@ a {
   width: 100%;
   overflow: hidden;
   position: relative;
-  overflow-x: scroll; }
+  #overflow-x: scroll; }
 
 #section-1__panorama {
   position: absolute;
